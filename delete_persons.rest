@@ -1,4 +1,4 @@
-GET  http://localhost:3001/api/persons/1
+GET  http://localhost:3001/api/persons/5fd9abf197e3800918fcd058
 
 
 ###
@@ -8,6 +8,6 @@ POST  http://localhost:3001/api/persons/
 Content-Type: application/json
 
 {
-    "name": "Giorgi Zardiashvili",
-    "number": "1234"
+    "name": "giorgi",
+    "number": "12345678"
 }
