@@ -5,7 +5,6 @@ const app = express();
 const morgan = require("morgan");
 const cors = require("cors");
 const Person = require("./models/person");
-const note = require("../../back/models/note");
 
 app.use(cors());
 app.use(express.static("build"));
